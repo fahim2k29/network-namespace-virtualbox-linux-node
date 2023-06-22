@@ -23,4 +23,4 @@ sudo ip netns exec red ip route add default via 10.0.0.1 dev veth-red
 sudo ip netns exec blue ip route add default via 10.0.0.2 dev veth-blue
 
 # ping for the specific ip address
-sudo ip netns exec red ping 10.0.0.3
+sudo ip netns exec red ping 10.0.0.2
